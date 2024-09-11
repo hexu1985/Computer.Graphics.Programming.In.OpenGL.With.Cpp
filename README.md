@@ -5,11 +5,11 @@
 **Ubuntu安装 OpenGL及相关依赖**
 
 ```bash
-$ sudo apt-get install build-essential libgl1-mesa-dev
-$ sudo apt-get install freeglut3-dev
-$ sudo apt-get install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev
-$ sudo apt install glew-utils libglew-dev libglew2.0 # for glew
-$ sudo apt-get install libglfw3-dev # for glfw
+$ sudo apt -y install build-essential libgl1-mesa-dev
+$ sudo apt -y install freeglut3-dev
+$ sudo apt -y install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev
+$ sudo apt -y install glew-utils libglew-dev libglew2.0 # for glew
+$ sudo apt -y install libglfw3-dev # for glfw
 ```
 
 
